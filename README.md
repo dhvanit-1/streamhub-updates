@@ -13,7 +13,9 @@ where you live.
 
 ## Requirements
 
-- An **Android TV** (not phones or tablets), Android 8.0 or newer.
+- **TV app:** an Android TV, Android 8.0 or newer.
+- **Phone app:** an Android phone or tablet, Android 8.0 or newer (quality is picked to match the screen; no 4K).
+- **PC app:** Windows 10/11 (x64 or ARM64) with Chrome or Edge installed.
 - Your own free **TMDB API key** (themoviedb.org → Settings → API). StreamHub asks for it on first
   launch and keeps it on that TV only.
 
@@ -21,8 +23,9 @@ where you live.
 
 | File | What it is |
 |---|---|
-| `streamhub-tv.apk` | The app. TVs offer it as an update when it's newer than theirs. |
-| `providers.json` + `providers.json.sig` | The plugin setup every TV follows, and the current app version, signed. TVs ignore unsigned or changed files. |
+| `streamhub-tv.apk` | The TV app. TVs offer it as an update when it's newer than theirs. |
+| `streamhub-mobile.apk` | The phone app (`com.streamhub.mobile`). Phones offer it as an update the same way. |
+| `providers.json` + `providers.json.sig` | The plugin setup every TV and phone follows, and the current version of each app, signed. Apps ignore unsigned or changed files. |
 | `plugins/` | Plugin files that aren't in any public repository (pinned by SHA-256 in the signed file). |
 
 TVs check `providers.json` 15 seconds after StreamHub starts and every 6 hours. They add the listed

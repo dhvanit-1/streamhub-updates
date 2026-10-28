@@ -1,1 +1,4 @@
 * -text
+# Nothing here is source code: hide it from GitHub's language bar (.sig was being read as Standard ML).
+* linguist-detectable=false
+*.sig linguist-language=Text

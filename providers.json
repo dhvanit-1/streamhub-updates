@@ -1,41 +1,42 @@
 {
-    "version":  3,
-    "repos":  [
-                  "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/plugins.json",
-                  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json",
-                  "https://raw.githubusercontent.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/builds/plugins.json",
-                  "https://raw.githubusercontent.com/Faisal0786/Desi/builds/plugins.json",
-                  "https://raw.githubusercontent.com/KSHITIJ8473/raghav/builds/plugins.json",
-                  "https://raw.githubusercontent.com/recloudstream/extensions/builds/plugins.json"
-              ],
-    "plugins":  [
-                    {
-                        "name":  "CineStream"
-                    },
-                    {
-                        "name":  "FourKHDHub"
-                    },
-                    {
-                        "name":  "MovieBoxProvider"
-                    },
-                    {
-                        "name":  "UHDmoviesProvider"
-                    }
-                ],
-    "remove":  [
-
-               ],
-    "disabled":  [
-
-                 ],
-    "priority":  [
-
-                 ],
-    "app":  {
-                "versionCode":  4,
-                "versionName":  "2.2",
-                "apk":  "streamhub-tv.apk",
-                "sha256":  "39b8794350e2c5fcd3e6008921e50cd79a6b2c6cc19e8381fd2b89ac5a20ee6c",
-                "notes":  "Own TMDB key per TV, app self-update, provider sync, faster stream page, trailer quality and language."
-            }
+    "version": 4,
+    "repos": [
+        "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/plugins.json",
+        "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json",
+        "https://raw.githubusercontent.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/builds/plugins.json",
+        "https://raw.githubusercontent.com/Faisal0786/Desi/builds/plugins.json",
+        "https://raw.githubusercontent.com/KSHITIJ8473/raghav/builds/plugins.json",
+        "https://raw.githubusercontent.com/recloudstream/extensions/builds/plugins.json"
+    ],
+    "plugins": [
+        {
+            "name": "CineStream"
+        },
+        {
+            "name": "FourKHDHub"
+        },
+        {
+            "name": "MovieBoxProvider"
+        },
+        {
+            "name": "UHDmoviesProvider"
+        }
+    ],
+    "remove": [],
+    "disabled": [],
+    "priority": [],
+    "app": {
+        "versionCode": 6,
+        "versionName": "2.4",
+        "apk": "streamhub-tv.apk",
+        "sha256": "e5dbb5a766085ada0d7c0275074bf6ff2cb3bb7e580eb209aa7b18fe47d1ff33",
+        "notes": "2.4: Continue Watching fixes, hold OK to remove, audio language priority (Gujarati, Hindi, English), trailer fallback and home screen setup, smoother plugin search, Play best now, search Backspace, Next episode in Options"
+    },
+    "mobileApp": {
+        "versionCode": 6,
+        "versionName": "2.4",
+        "apk": "streamhub-mobile.apk",
+        "sha256": "489589fca57078dbbbb862e96558543999321a4e55d369a338f7c95bf43b8fb3",
+        "notes": "2.4: Continue Watching fixes, hold OK to remove, audio language priority (Gujarati, Hindi, English), trailer fallback and home screen setup, smoother plugin search, Play best now, search Backspace, Next episode in Options"
+    }
 }
