@@ -36,7 +36,13 @@
         "versionCode": 6,
         "versionName": "2.4",
         "apk": "streamhub-mobile.apk",
-        "sha256": "489589fca57078dbbbb862e96558543999321a4e55d369a338f7c95bf43b8fb3",
+        "sha256": "2b8c6a7bef457eb7015e87bfbf96bbd1e8028c2a571e8919b94313b89e6401b4",
         "notes": "2.4: Continue Watching fixes, hold OK to remove, audio language priority (Gujarati, Hindi, English), trailer fallback and home screen setup, smoother plugin search, Play best now, search Backspace, Next episode in Options"
+    },
+    "desktop": {
+        "version": "1.1.1",
+        "zip": "streamhub-desktop.zip",
+        "sha256": "c6b06b1591491810203d6604d9577c540efb252e43c75d15224b7ff73f97801a",
+        "notes": "1.1.1: quality, audio and subtitle menus, double-click to seek, audio language priority, signed self-update"
     }
 }
