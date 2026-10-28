@@ -33,16 +33,16 @@
         "notes": "2.4: Continue Watching fixes, hold OK to remove, audio language priority (Gujarati, Hindi, English), trailer fallback and home screen setup, smoother plugin search, Play best now, search Backspace, Next episode in Options"
     },
     "mobileApp": {
-        "versionCode": 6,
-        "versionName": "2.4",
+        "versionCode": 7,
+        "versionName": "2.5",
         "apk": "streamhub-mobile.apk",
-        "sha256": "2b8c6a7bef457eb7015e87bfbf96bbd1e8028c2a571e8919b94313b89e6401b4",
-        "notes": "2.4: Continue Watching fixes, hold OK to remove, audio language priority (Gujarati, Hindi, English), trailer fallback and home screen setup, smoother plugin search, Play best now, search Backspace, Next episode in Options"
+        "sha256": "a401a8c9b2b08a0f85d0365a9f9ebc83cd2e7176eabd1a36ea9c5eee16f50fad",
+        "notes": "2.5: downloads for offline watching, Up to 4K option, like/love/watched, swipe for volume and brightness, picture mode, tap the time bar to seek, plugins set up on first run"
     },
     "desktop": {
-        "version": "1.1.1",
+        "version": "1.2.0",
         "zip": "streamhub-desktop.zip",
-        "sha256": "c6b06b1591491810203d6604d9577c540efb252e43c75d15224b7ff73f97801a",
-        "notes": "1.1.1: quality, audio and subtitle menus, double-click to seek, audio language priority, signed self-update"
+        "sha256": "7f0c2b278ec8608c9097d254a8eacb1d993e7c77f527bd2d6e11439bd128e6c4",
+        "notes": "1.2.0: Dolby/DTS/TrueHD sound and embedded subtitles (FFmpeg), Plugins screen, preferred quality, clear watch history, picture mode"
     }
 }

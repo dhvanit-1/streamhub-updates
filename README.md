@@ -31,8 +31,8 @@ Get the newest version from **[Releases](https://github.com/dhvanit-1/streamhub-
 | Windows PC (ARM64) | `StreamHub-win-arm64-<version>.zip` | Same, for Snapdragon / Windows-on-ARM laptops. |
 
 On first launch each app asks for your TMDB key. After that, **updates are automatic**: every app
-checks the signed `providers.json` here, offers a newer version when there is one, and checks its
-SHA-256 before installing. Each app also has a manual check in Settings.
+checks the signed `providers.json` here and offers a newer version when there is one (the TV and PC apps install it and check its
+SHA-256; the phone app opens the download in your browser). Each app also has a manual check in Settings.
 
 ## Files
 
