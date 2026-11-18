@@ -1,5 +1,5 @@
 {
-    "version":  5,
+    "version":  6,
     "repos":  [
                   "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/plugins.json",
                   "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json",
@@ -32,23 +32,23 @@
 
                  ],
     "app":  {
-                "versionCode":  7,
-                "versionName":  "2.5",
+                "versionCode":  9,
+                "versionName":  "2.7",
                 "apk":  "streamhub-tv.apk",
-                "sha256":  "1f0fc41062db6fd5aca81fb092bebdd3e9288f690d3d4777e00d4614fbc64fce",
-                "notes":  "2.5: Private DNS (gets past ISP blocks such as Jio), export / import backup of history, likes, My List, settings and plugins, history and likes kept safely across updates"
+                "sha256":  "d233eb0a2064a2ec7cfd0b9c83985c2c860189bbbae20804a82c9b69854609a9",
+                "notes":  "New player controls, JioHotstar-style seeking, Skip intro and Next episode with one OK, Play from beginning, subtitles on by default (OpenSubtitles when the source has none), plugin search time setting (12 s), more sources"
             },
     "mobileApp":  {
-                      "versionCode":  8,
-                      "versionName":  "2.6",
+                      "versionCode":  9,
+                      "versionName":  "2.7",
                       "apk":  "streamhub-mobile.apk",
-                      "sha256":  "a4445b9488e76f2b7b1471e6e06f309b6e6d6a3e29ef89ceeb186db82838d415",
-                      "notes":  "2.6: Dolby / DTS / TrueHD sound on phones without a Dolby decoder, picture-mode button in place of the settings gear, playback speed in Options, Private DNS (gets past ISP blocks such as Jio), export / import backup"
+                      "sha256":  "44ee546a2580097cced54a7451233f6d7862b8af69f2e4e3b34b98412a057e39",
+                      "notes":  "Play from beginning, subtitles on by default (OpenSubtitles when the source has none), Skip intro and Next episode, plugin search time setting (12 s), more sources"
                   },
     "desktop":  {
-                    "version":  "1.3.0",
+                    "version":  "1.4.0",
                     "zip":  "streamhub-desktop.zip",
-                    "sha256":  "04c1f434feb086841db3190b93ef5fef3c99e67d98d98ae260597a606f514a64",
-                    "notes":  "1.3.0: New StreamHub player (mpv): Dolby/DTS sound, smooth 4K HDR, subtitles inside files and automatic online subtitles; Private DNS; backup export/import shared with phone and TV; plugins listed like the TV app; fixes 4K stutter and missing audio."
+                    "sha256":  "15a9e846f6c2d3c79439c5b3f12577e80e0810956d09e1a0bbb4a4530934cd8c",
+                    "notes":  "Skip intro and Next episode in the player (Enter), Play from beginning, subtitles on by default, plugin search time setting (12 s), more sources, failing file hosts tried last"
                 }
 }
