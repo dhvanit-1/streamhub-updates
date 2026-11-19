@@ -1,5 +1,5 @@
 {
-    "version":  6,
+    "version":  7,
     "repos":  [
                   "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/plugins.json",
                   "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json",
@@ -39,11 +39,11 @@
                 "notes":  "New player controls, JioHotstar-style seeking, Skip intro and Next episode with one OK, Play from beginning, subtitles on by default (OpenSubtitles when the source has none), plugin search time setting (12 s), more sources"
             },
     "mobileApp":  {
-                      "versionCode":  9,
-                      "versionName":  "2.7",
+                      "versionCode":  10,
+                      "versionName":  "2.7.1",
                       "apk":  "streamhub-mobile.apk",
-                      "sha256":  "44ee546a2580097cced54a7451233f6d7862b8af69f2e4e3b34b98412a057e39",
-                      "notes":  "Play from beginning, subtitles on by default (OpenSubtitles when the source has none), Skip intro and Next episode, plugin search time setting (12 s), more sources"
+                      "sha256":  "9d2c4eafb43724c42b1dfd47942ab49fde8fea0bf37acc039abb85afc33b0fc9",
+                      "notes":  "New player look: icon buttons, play/pause only in the middle, picture-size button away from the seek bar, Options shows only phone settings"
                   },
     "desktop":  {
                     "version":  "1.4.0",
