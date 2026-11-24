@@ -1,29 +1,384 @@
 {
-    "version":  7,
+    "version":  8,
     "repos":  [
                   "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/plugins.json",
                   "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json",
                   "https://raw.githubusercontent.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/builds/plugins.json",
                   "https://raw.githubusercontent.com/Faisal0786/Desi/builds/plugins.json",
                   "https://raw.githubusercontent.com/KSHITIJ8473/raghav/builds/plugins.json",
-                  "https://raw.githubusercontent.com/recloudstream/extensions/builds/plugins.json"
+                  "https://raw.githubusercontent.com/recloudstream/extensions/builds/plugins.json",
+                  "https://raw.githubusercontent.com/dipender98/Indflix/builds/plugins.json",
+                  "https://raw.githubusercontent.com/FlummoxGamer/FLUMMOX-Repo/builds/plugins.json",
+                  "https://raw.githubusercontent.com/kotlinsyd/plaviohd/builds/plugins.json",
+                  "https://raw.githubusercontent.com/RVRBEAST76/allforu-repo/builds/plugins.json"
               ],
     "plugins":  [
                     {
                         "name":  "CineStream"
                     },
                     {
+                        "name":  "StreamHubOne"
+                    },
+                    {
+                        "name":  "JustPlay"
+                    },
+                    {
+                        "name":  "IndStream"
+                    },
+                    {
+                        "name":  "MovieBoxProvider",
+                        "repo":  "https://raw.githubusercontent.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/builds/plugins.json"
+                    },
+                    {
+                        "name":  "Kdesa"
+                    },
+                    {
+                        "name":  "Movy",
+                        "repo":  "https://raw.githubusercontent.com/KSHITIJ8473/raghav/builds/plugins.json"
+                    },
+                    {
+                        "name":  "Bollyflix"
+                    },
+                    {
+                        "name":  "BingeCloud"
+                    },
+                    {
+                        "name":  "HDHub4u",
+                        "repo":  "https://raw.githubusercontent.com/kotlinsyd/plaviohd/builds/plugins.json"
+                    },
+                    {
+                        "name":  "Hindmoviez"
+                    },
+                    {
+                        "name":  "StreamPlay"
+                    },
+                    {
+                        "name":  "HiCine"
+                    },
+                    {
+                        "name":  "OttSource"
+                    },
+                    {
+                        "name":  "Vegamovies",
+                        "repo":  "https://raw.githubusercontent.com/dipender98/Indflix/builds/plugins.json"
+                    },
+                    {
+                        "name":  "Multimovies",
+                        "repo":  "https://raw.githubusercontent.com/KSHITIJ8473/raghav/builds/plugins.json"
+                    },
+                    {
+                        "name":  "MoviesHunt",
+                        "repo":  "https://raw.githubusercontent.com/Faisal0786/Desi/builds/plugins.json"
+                    },
+                    {
                         "name":  "FourKHDHub"
                     },
                     {
-                        "name":  "MovieBoxProvider"
+                        "name":  "AniKage",
+                        "repo":  "https://raw.githubusercontent.com/kotlinsyd/plaviohd/builds/plugins.json"
                     },
                     {
-                        "name":  "UHDmoviesProvider"
+                        "name":  "AniVortex",
+                        "repo":  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
+                    },
+                    {
+                        "name":  "DesiSerialsProvider"
+                    },
+                    {
+                        "name":  "ZDKSerials"
+                    },
+                    {
+                        "name":  "Desicinemas"
                     }
                 ],
+    "extra":  [
+                  {
+                      "name":  "NetNaija-box"
+                  },
+                  {
+                      "name":  "SpaceDom"
+                  },
+                  {
+                      "name":  "Way2Movies"
+                  },
+                  {
+                      "name":  "AllOtt"
+                  },
+                  {
+                      "name":  "Cinezo"
+                  },
+                  {
+                      "name":  "NetNaija",
+                      "repo":  "https://raw.githubusercontent.com/KSHITIJ8473/raghav/builds/plugins.json"
+                  },
+                  {
+                      "name":  "AllMovieLandProvider"
+                  },
+                  {
+                      "name":  "Castle"
+                  },
+                  {
+                      "name":  "Cinejoy"
+                  },
+                  {
+                      "name":  "Nxsha"
+                  },
+                  {
+                      "name":  "VidNest"
+                  },
+                  {
+                      "name":  "Dexter"
+                  },
+                  {
+                      "name":  "IStreamFlare"
+                  },
+                  {
+                      "name":  "Vidrock"
+                  },
+                  {
+                      "name":  "AniChan"
+                  },
+                  {
+                      "name":  "AniKoto",
+                      "repo":  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
+                  },
+                  {
+                      "name":  "AniKotoAnime"
+                  },
+                  {
+                      "name":  "Anilight",
+                      "repo":  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
+                  },
+                  {
+                      "name":  "AnimeDekhoProvider"
+                  },
+                  {
+                      "name":  "Animedubhindi",
+                      "repo":  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
+                  },
+                  {
+                      "name":  "AnimeGG"
+                  },
+                  {
+                      "name":  "Animenosub"
+                  },
+                  {
+                      "name":  "Animesalt"
+                  },
+                  {
+                      "name":  "AnimeSky"
+                  },
+                  {
+                      "name":  "AnimeVilla"
+                  },
+                  {
+                      "name":  "AnimeVillage"
+                  },
+                  {
+                      "name":  "AnimeWorldIndia"
+                  },
+                  {
+                      "name":  "AniPm",
+                      "repo":  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
+                  },
+                  {
+                      "name":  "AniStream"
+                  },
+                  {
+                      "name":  "AniSuge"
+                  },
+                  {
+                      "name":  "Anizone",
+                      "repo":  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
+                  },
+                  {
+                      "name":  "Anv"
+                  },
+                  {
+                      "name":  "DudeFilms"
+                  },
+                  {
+                      "name":  "Gotaku",
+                      "repo":  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
+                  },
+                  {
+                      "name":  "Hdmovie2"
+                  },
+                  {
+                      "name":  "HDMovie4"
+                  },
+                  {
+                      "name":  "HiAnime"
+                  },
+                  {
+                      "name":  "Kickassanime"
+                  },
+                  {
+                      "name":  "Piratexplay",
+                      "repo":  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
+                  },
+                  {
+                      "name":  "Play4u"
+                  },
+                  {
+                      "name":  "RaghavAnime"
+                  },
+                  {
+                      "name":  "RareAnimesIndia"
+                  },
+                  {
+                      "name":  "Reanime",
+                      "repo":  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
+                  },
+                  {
+                      "name":  "RingZ"
+                  },
+                  {
+                      "name":  "SoraStream"
+                  },
+                  {
+                      "name":  "TamilToon"
+                  },
+                  {
+                      "name":  "Toonix"
+                  },
+                  {
+                      "name":  "Toonstream"
+                  },
+                  {
+                      "name":  "ToonWorld4All"
+                  },
+                  {
+                      "name":  "TwoDHive"
+                  },
+                  {
+                      "name":  "VidBolt"
+                  },
+                  {
+                      "name":  "WatchAnimeWorld"
+                  },
+                  {
+                      "name":  "XonProvider",
+                      "repo":  "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
+                  }
+              ],
     "remove":  [
-
+                   "4KHDHub",
+                   "4khdHub",
+                   "Anichi",
+                   "Anidap",
+                   "Anikage",
+                   "AniLight",
+                   "AnimeDubHindi",
+                   "AnimePahe",
+                   "AnimeSuge",
+                   "Animexin",
+                   "AniPM",
+                   "AnirexTo",
+                   "AniSnatch",
+                   "AniWaves",
+                   "AniZone",
+                   "AreaDocumentalProvider",
+                   "Arte",
+                   "CineCalidad",
+                   "Cinemacity",
+                   "Cinevood",
+                   "CineVoodProvider",
+                   "Comix",
+                   "DamiTVProvider",
+                   "DiviCast",
+                   "DocumentaryArea",
+                   "DoraBash",
+                   "Dulo",
+                   "Eclipsia",
+                   "EclipsiaAnime",
+                   "EclipsiaBDIX",
+                   "Einthusan",
+                   "EliteStreams",
+                   "FshareProvider",
+                   "Goojara",
+                   "GoTaku",
+                   "HackStore",
+                   "Hdhub4u",
+                   "HDhub4u",
+                   "HindiDrama",
+                   "Iwatchtheoffice",
+                   "JPFilms",
+                   "Kartoons",
+                   "KissKH",
+                   "KisskhProvider",
+                   "KmMovies",
+                   "LaMovie",
+                   "LibraryOfLadev",
+                   "MalluMV",
+                   "Mapple",
+                   "MaxVOD",
+                   "MicroTV",
+                   "Microtv",
+                   "MovieBox",
+                   "MovieLinkBD",
+                   "Movienestbd",
+                   "Movies4u",
+                   "MoviesBazar",
+                   "MoviesDrive",
+                   "MoviesMod",
+                   "Moviesmod",
+                   "MultiMovies",
+                   "MultiMoviesProvider",
+                   "Nepu",
+                   "NetMirror",
+                   "NetMovie",
+                   "NextGenTV",
+                   "NineAnime",
+                   "NoirX",
+                   "Obejrzyj",
+                   "OFC",
+                   "OHLI24",
+                   "OndaSpanish",
+                   "OnePace",
+                   "OneTouchTV",
+                   "OnShort",
+                   "Otakutsu",
+                   "PiratexPlay",
+                   "PremiumSmart",
+                   "QuickPlay",
+                   "RaghavAnimeKitsu",
+                   "ReAnime",
+                   "ReelFren",
+                   "Replaymatch",
+                   "SDmovies",
+                   "Senshi",
+                   "ShowBox",
+                   "SimklProvider",
+                   "Subsplease",
+                   "Supercartoons",
+                   "SuperStream",
+                   "TamilBlasters",
+                   "The Movie Flix",
+                   "TheMoviesFlix",
+                   "ToonHub",
+                   "ToonPlay",
+                   "ToonTales",
+                   "Topcartoons",
+                   "TwitchProvider",
+                   "UHDMovies",
+                   "UHDmoviesProvider",
+                   "VAplayer",
+                   "vegamovies",
+                   "VegaMovies",
+                   "VegaMoviesProvider",
+                   "VidFast",
+                   "Vidlink",
+                   "ViStreamProvider",
+                   "Watch32",
+                   "WatchDrama",
+                   "Wcoflix",
+                   "Xanime",
+                   "XDMovies",
+                   "YoTurkish",
+                   "ZeeFliz",
+                   "ZeeFliz4k",
+                   "Zinkmovies"
                ],
     "disabled":  [
 
@@ -32,23 +387,23 @@
 
                  ],
     "app":  {
-                "versionCode":  9,
-                "versionName":  "2.7",
+                "versionCode":  10,
+                "versionName":  "2.8",
                 "apk":  "streamhub-tv.apk",
-                "sha256":  "d233eb0a2064a2ec7cfd0b9c83985c2c860189bbbae20804a82c9b69854609a9",
-                "notes":  "New player controls, JioHotstar-style seeking, Skip intro and Next episode with one OK, Play from beginning, subtitles on by default (OpenSubtitles when the source has none), plugin search time setting (12 s), more sources"
+                "sha256":  "9206511e2821b19c82fe15b28f351a2a5963403aedc35dffad40ba702c0332c2",
+                "notes":  "Plugins: 23 tested default plugins (76 working ones with the new \"All working plugins\" switch in Plugins), dead and duplicate plugins removed, plugins with near-identical names no longer mixed up. Many Hindi sites found again (better title matching). A stuck plugin no longer freezes the source search. Learned search time fixed and reset. Serial/daily-soap links play. Maximum quality setting, streams listed 4K first. Episodes without a TMDB picture show the show\u0027s picture."
             },
     "mobileApp":  {
-                      "versionCode":  10,
-                      "versionName":  "2.7.1",
+                      "versionCode":  11,
+                      "versionName":  "2.8",
                       "apk":  "streamhub-mobile.apk",
-                      "sha256":  "9d2c4eafb43724c42b1dfd47942ab49fde8fea0bf37acc039abb85afc33b0fc9",
-                      "notes":  "New player look: icon buttons, play/pause only in the middle, picture-size button away from the seek bar, Options shows only phone settings"
+                      "sha256":  "6961c33cd9f6b0f2cbdd69c0bb19397cb325c5e42de37de5d8f05c8682d91b85",
+                      "notes":  "Same plugin and source fixes as the TV (23 tested default plugins, \"All working plugins\" switch in Settings, better title matching, no frozen searches, learned search time fixed, serial links play). Downloads use the same browser identity as the player, so more links download. Episodes without a TMDB picture show the show\u0027s picture."
                   },
     "desktop":  {
-                    "version":  "1.4.0",
+                    "version":  "2.8.0",
                     "zip":  "streamhub-desktop.zip",
-                    "sha256":  "15a9e846f6c2d3c79439c5b3f12577e80e0810956d09e1a0bbb4a4530934cd8c",
-                    "notes":  "Skip intro and Next episode in the player (Enter), Play from beginning, subtitles on by default, plugin search time setting (12 s), more sources, failing file hosts tried last"
+                    "sha256":  "276a69ce67d93b197091f537fa2fda604091b5502bccf6f40363938f7a6f2c55",
+                    "notes":  "Sources: links that came percent-encoded or as //host addresses play, unplayable ones are hidden; better title matching for anime. Episodes without a TMDB picture show the show\u0027s picture."
                 }
 }
